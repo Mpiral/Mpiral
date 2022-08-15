@@ -1,0 +1,356 @@
+
+/* ando code*/
+#presidente{
+    margin-left: 35%;
+}
+.personnel{
+    width: 230px;
+    height: 300px;
+    margin: 20px; 
+}
+
+.bureau{
+    display: flex;
+    margin-left: 10%;
+}
+.entourer{
+    border: 3px dashed maroon;
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+    margin: auto;
+    margin-bottom: -30px;
+}
+.imagerond{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.etiquette{
+    text-align: center;
+    background-color: maroon;
+    margin-top: 0px;
+    color: white;
+    border-radius: 8px 30px;
+    height: 70px;
+    padding-top: 2px;
+    position: relative;
+}
+#aligne{
+    
+    margin: 0;
+    width: 80%;
+    display: flex;
+   
+}
+.aligne_2{
+    display: inline-block;
+    margin: 0 200px ;
+    
+}
+
+
+
+
+
+
+
+/* GENERALE */
+*
+{
+   margin: 0px;
+   padding: 0px;
+}
+header {
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px;
+    background-color: white;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 100px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    z-index: 10;
+    padding: 20px;
+}
+
+header ul {
+    padding-right: 20px;
+    list-style: none;
+}
+header ul.menu li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header ul.menu li a {
+    font-family: Arial,sans-serif; 
+    font-size: 15px;
+    font-weight: bold;
+    background-color:white;
+    color:#444;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu_toggle {
+    list-style: none;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+header .menu {
+    position: fixed;
+    right: 5px;
+    top: 50px;
+    border-radius: 20px;
+}
+header .menu_toggle {
+    position: fixed;
+    right: 20px;
+    top: 30px;
+}
+h2{
+    font-size: 20px;
+    color: #777;
+}
+
+a {
+    border-radius: 16px;
+    padding: 10px;
+}
+.menu li a:hover {
+    background-color:maroon;
+    color:white;
+}
+#home
+{
+    background-color:maroon;
+    width: 100%;
+    height: 500px;
+    color: white;
+    
+}
+#diviser{
+    width: 80px;
+    height: 1px;
+    margin: 10px auto ;
+    background-color:#777;
+
+}
+.divider
+{
+    width: 60%;
+    height: 2px;
+    margin: 50px auto ;
+    background-color:#777;
+}
+#contacts{
+    width: 100%;
+    height: 400px;
+    background: black;
+}
+
+
+.clear{
+    clear: both;
+}
+ 
+/*HOME*/
+ #home {
+    padding: 0 3%;
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+
+.left-1{
+    float: left;
+    margin: auto 0;
+    width: 50%;
+}
+
+.right-1 { 
+    width: 40%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 80px;
+ }
+
+.left-1 h1{
+    font-size: 193px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.right-1 p{
+   font-size: 28px;
+   font-style: normal;
+   color: white;
+   text-align: justify;
+}
+/*CONTACT*/
+footer{
+   text-align: center;
+   padding: 20px 0;
+}
+footer h3 {
+   font-size: 30px;
+   color: maroon;
+   font-weight: bold;
+}
+footer p {
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: #777;
+   text-align: center;
+}
+footer div ul {
+   display: flex;
+   margin: 50px auto;
+   justify-content: center;
+}
+footer div ul li{
+   list-style: none;
+   font-size: 20px;
+   margin: 0 25px;
+   font-weight: bold;
+
+}
+
+/*RESPONSIVE*/
+@media (max-width:1200px){
+    .left h1 {
+        font-size: 120px;
+    }
+    .right p{
+        font-size: 24px;
+    }
+} 
+@media (max-width:900px){
+    .left h1 {
+        font-size: 100px;
+    }
+    .right p{
+        font-size: 20px;
+    }
+} 
+@media (max-width:1010px){
+    footer div ul{
+        flex-direction: column;
+    }
+    footer div ul li{
+        line-height: 30px;
+    }
+}
+@media (max-width:750px){
+    header .menu {
+        display: none;
+    }
+    .left h1 {
+        font-size: 25px;
+    }
+    .left p {
+        font-size: 25px;
+    }    
+
+    .menu_toggle{
+        z-index: 10;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu_toggle::before {
+        position: absolute;
+        content: "";
+        transform: translateY(-10px);
+        width: 40px;
+        height: 5px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 10px 10px  black;
+        transition: 0.5s;
+    }
+    .menu_toggle.active::before {
+        box-shadow: 0 0 #fff;
+        transform: rotate(135deg);
+    }
+    .menu_toggle::after {
+        position: absolute;
+        content: "";
+        transform: translateY(10px);
+        width: 40px;
+        height: 5px;
+        background-color: black;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .menu_toggle.active::after {
+        transform: rotate(-135deg);
+    }
+    header .menu.responsive{
+        display: flex;
+        position: fixed;
+        top: 150px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color:rgba(255,255,255, 0.05);
+        flex-direction: column;
+    }
+    header .menu.responsive li {
+        margin: 10px 0;
+    }
+    .left{
+       float: none;
+       width: 100%;
+       display: block;
+       text-align: center;
+    }
+    .right{
+        float: none;
+        width: 100%;
+        display: block;
+        margin-left: 20px;
+     }
+}
+
+
+@media only screen and (max-width:700px) {
+    .logo{
+           left: 10px;
+         }
+}
+

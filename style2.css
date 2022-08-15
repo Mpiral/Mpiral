@@ -1,0 +1,293 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: 200px;
+    width: 300px;
+    margin-top: 5px;
+}
+.bottom-nav{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    border-bottom: 2px solid maroon;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+    justify-content: center;
+}
+.menu-item{
+    flex-grow: 1;
+    height: 50px;
+    border-radius: 9999px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition:flex-grow 0.4s cubic-bezier(0.17, 0.67, 0.27, 1.42);
+    
+    
+    
+}
+.menu-item img{
+    width: 40px;
+    
+    }
+ .test .services{
+    font-weight: 600;
+    width: 30px;
+    color: rgb(65, 3, 3);
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    margin-left: -40%;
+    padding-left: 50%;
+    padding-right: 50px;
+    
+    
+
+    
+}    
+
+
+a{
+    text-decoration: none;
+    text-decoration-color: white;
+    display: flex;
+}
+
+.menu-item:not(:nth-child(1)){
+    margin-left: 60px;
+}
+.active-anim {
+    flex-grow: 4;
+}
+
+.bottom-nav a:nth-child(1){
+    background: #9cd3ec;
+}
+.bottom-nav a:nth-child(2){
+    background: #ecc79c;
+}
+.bottom-nav a:nth-child(3){
+    background: #ec9c9c;
+}
+.bottom-nav a:nth-child(4){
+    background: crimson;
+}
+
+.section-title{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 100;
+    position: relative;
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: maroon;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+.bests-items{
+    margin: 100px;
+}
+.best-plants{
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+.no-grid{
+   min-width: 350px;
+   height: 500px; 
+   flex: 1;
+}
+.plant1{
+    background-image: url('images/staff.JPG');
+}
+.plant2{
+    background-image: url('images/jury.JPG');
+
+}
+.plant3{
+    background-image: url('images/pinterne.jpg');
+}
+.plant4{
+    background-image: url('images/gangnants.jpg');
+}
+.details{
+    background-color: #ffffffdf;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 5px 20px;
+}
+.name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+
+}
+.price{
+    color: maroon;
+    font-weight: 600;
+    line-height: 3px;
+    font-size: 14px;
+}
+.all{
+    margin: 100px;
+}
+.plant-grid{
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 400px);
+}
+.plant-grid1{
+    background-image: url('images/eauipe.jpeg');
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.plant-grid2{
+    background-image: url('images/supporter1.jpg');
+    grid-column: 3/5;
+}
+.plant-grid3{
+    background-image: url('images/logo.jpg');
+    grid-column: 3/5;
+}
+.plant-grid4{
+    background-image: url('images/trophee.jpeg');
+    grid-column: 1;
+    grid-row: 3/5;
+}
+.plant-grid5{
+    background-image: url('images/supporter2.jpg');
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+.plant-grid6{
+    background-image: url('images/Smatchin.png');
+    grid-column: 4;
+    grid-row: 3/5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 680px){
+    .main .content .card .right img{
+       height: 300px;
+       width: 400px;
+       margin-top: 0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    .main .card{
+        margin: 10px;
+    }
+
+    .active-anim{
+        flex-grow: 2;
+    }
+    .bottom-nav{
+        padding-bottom: 70px;
+    }
+    .price{
+        line-height: 0px;
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

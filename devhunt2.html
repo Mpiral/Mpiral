@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+          <link href="devhunt2.css" rel="stylesheet">
+          <link href="http://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+          <title>First edition devhunt</title>
+     </head>
+  
+    <body>
+            <header>
+                <div>
+                        <div>    
+                          <img class="logo" src="imgs/logo-1.jpg"></img>
+                        </div>
+                        <!-- responsive menu-->
+                        <div class="menu_toggle"></div>
+                        <ul class="menu">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="squelett.html" target="_blank">Members</a></li>
+                            <li><a href="partenaire.html" target="_blank">Partners</a></li>
+                            <li><a href="partenaire.html#activite" target="_blank">Activities</a></li>
+                            <li><a href="#contact">Contacts</a></li>
+                        </ul>
+                </div>
+            </header>
+
+
+            <div class="divider"></div>            
+            
+            <!-- description section -->
+            <section id="home" >
+                 <!--/*div gauche-->
+                 <div class="left-1">
+                      <h1>
+                          <span>A</span>
+                          <span>E</span>
+                          <span>E</span>
+                          <span>N</span>
+                          <span>I</span>
+                      </h1>
+                 </div>
+
+                 <!--/*div droite-->
+
+                 <div class="right-1">
+                         <p>"C'est une association des étudiants d'école nationale d'informatique  qui aide les étudiants à améliorer dans leur domaine et aussi
+                         dans les divers activités pedagogiques et sportifs."</p>
+                 </div> 
+             <div class="clear"></div>
+              
+             </section>   
+      <!--Contacts-->       
+      <footer id="contact">
+             <h3>CONTACTEZ-NOUS</h3>
+             <div id="diviser"></div>
+             <p>N'hésitez pas à nous contacter si vous avez besoin de notre aide</p> 
+             <div>
+                   <ul>
+                       <li><img src="imgs/trano.png" style="width: 15px; height: 15px ;"> Etablissement Ralaivao Talamaty</li>
+                       <li><img src="imgs/social_facebook_fb_35.png" style="width: 15px; height: 15px ;"> aeeni</li>
+                       <li><img src="imgs/telephone.png" style="width: 15px; height: 15px ;"> +261 34 92 094 71</li>
+                       <li><img src="imgs/mail.png" style="width: 15px; height: 15px ;"> a.etudiant.eni@gmail.com</li>
+                   </ul>
+             </div>
+      </footer>
+    
+    </body>
+         
+         <script>
+             var menu = document.querySelector('.menu');
+             var menu_toggle = document.querySelector('.menu_toggle');
+
+             menu_toggle.onclick = function (){
+             menu_toggle.classList.toggle('active');
+             menu.classList.toggle('responsive');
+           }
+        </script>
+
+
+</html>

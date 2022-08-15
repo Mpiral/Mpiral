@@ -1,0 +1,323 @@
+li{
+    margin: 0;
+    line-height: 1px;
+}
+ul{
+    margin: 5px;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.first{
+    display: flex;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+.second{
+    display: flex;
+    margin-left: 10%;
+}
+
+.content{
+    width: 200px;
+    height: 250px;
+    border: 3px solid skyblue;
+    margin:  20px;
+    box-shadow: 0 0 30px 5px black;
+}
+.logo{
+    height: 70%;
+    width: 100%;
+}
+.contenaire{
+    display: flex;
+    margin:10px ;
+    margin-left: 12%;
+}
+.logoclub{
+    border: 1px solid skyblue;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+ 
+}
+.imageclub{
+    width: 200px;
+    height: 250px;   
+    background-color: rgb(37, 28, 28);
+}
+h2{
+    text-align: center;
+    color: midnightblue;
+}
+h4{
+    color: rgba(221, 21, 21, 0.911);
+    margin-bottom: -15px;
+    text-align: center;
+    font-weight: bolder;
+}
+h3{
+    color: rgba(13, 192, 123, 0.986);
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.personnel{
+    width: 230px;
+    height: 300px;
+    margin: 20px; 
+}
+#presidente{
+    margin-left: 35%;
+}
+.imagerond{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.etiquette{
+    text-align: center;
+    background-color: maroon;
+    margin-top: 0px;
+    color: white;
+    border-radius: 8px 30px;
+    height: 70px;
+    padding-top: 2px;
+    position: relative;
+}
+.entourer{
+    border: 3px dashed maroon;
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+    margin: auto;
+    margin-bottom: -30px;
+}
+.bureau{
+    display: flex;
+    margin-left: 10%;
+}
+.contour{
+    border: 3px dashed white;
+}
+.etiquet{
+    background-color: rgb(223, 229, 231);
+    color: black;
+    border-radius: 8px 8px 50px 50px;
+    font-weight: 900;
+}
+.delegation{
+    background-color: rgb(58, 59, 66);
+}
+.appel{
+    display: flex;
+}
+.icone{
+    width: 10px;
+    height: 10px;
+    clip-path: circle(20%); 
+    float: left;
+}
+.libelle{
+    font-size: 10px;
+    font-weight: bolder;
+}
+.inline{
+    display: inline-block;
+}
+.contactpartner{
+    border: 2px solid skyblue;
+    border-radius: 0px 0px 2px 0px inherit;
+}
+.imagedefil{
+    display: inline-block;
+    height: 100px;
+    width: 60px;
+    border: 1px solid red;
+}
+
+/* teamhackaton */
+.team{
+    display: flex;
+    background-color: #fff;
+}
+.teamtxt{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.temtxt{
+    color: maroon;
+    font-size: 60px;
+}
+.descriteam{
+
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  .slider-container {
+    margin: 50px 20px 15px 15px;
+    width: 400px;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 200px;
+  }
+  .menu {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+  }
+  .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: grey;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+  }
+  .menu label:hover,.menu label:focus {
+    background: #1c87c9;
+  }
+  .slide-input{
+    opacity: 0;
+  }
+  .slide-img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+  }
+  [id^="slide"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+  }
+  @media screen and (max-width:750px) {
+      body{
+          display: block;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
